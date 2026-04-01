@@ -52,7 +52,8 @@
                 document.getElementById("login").addEventListener(
                     "click", function () {
                         const name = document.getElementById("size2").value.trim();
-                        if (name === "kasturi") {
+                        const dob = document.getElementById("size").value
+                        if (name === "kasturi" && dob == "0301") {
                             window.location.href = "cake.html";
                         } else {
                             alert("Access Denied")
