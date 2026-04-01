@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    color:rgb(243, 225, 203)
+}
+#b-day{
+    background-color: rgb(15, 14, 14);
+    height:60px;
+   display: flex;
+        justify-content:space-evenly;
+}
+#com{
+    color:rgb(162, 115, 98);
+    font-size:1rem;
+margin:20px;
+}
+#developer{
+    font:1rem;
+    margin:20 px; 
+}
+#account{
+    font-size:1rem; 
+    margin:20px; 
+}
+#home{
+    font: size 0.8rem; 
+}
+#content{
+    height:800px;
+    text-align: center;
+    background-color:#f6c8cc;
+    font-size: xx-large;
+}
+#conclude{
+    background-color: black;
+    height:300px;
+}
+#button{
+    background-color:#ff9900;
+    color:white;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    transition: all 0.3 ease;
+}
+button:hover{
+    background-color:#e68a00;
+    transform:scale(1.1);
+}
+#size{
+    width:50%;
+   height:15vh;
+   font-size:2rem;
+   margin-bottom:100px;
+   border-radius:4px;
+   background-color:#AF8D84;
+}
+#size2{
+    width:50%;
+    height:15vh;
+    font-size:2rem;
+    margin-top:100px;
+    border-radius:4px;
+      background-color:#AF8D84;
+}
+#logo{
+    font-size:1.6rem;
+}
+@media(min-width:100px)and(max-width:900px)
+{
+    #com,#developer,#account,#home{
+        font-size:0.8rem;
+        display: flex;
+        justify-content:space-evenly;
+        #developer,#account{
+        margin:50px;
+        }
+       
+    }
+
+}
+
+
