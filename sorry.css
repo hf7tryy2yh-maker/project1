@@ -33,5 +33,6 @@ button:hover{
 #contact{
     height:200px;
     background-color: rgb(207 187 218);
-    justify-content: center;
+    position:absolute;
+    button:20px;
 }
