@@ -31,8 +31,9 @@ button:hover{
     transform:scale(1.1);
 }
 #contact{
-    height:200px;
-    background-color: rgb(207 187 218);
+    height:500px;
+    background-color: rgb(131 107 144);
     position:absolute;
-    button:20px;
+    button:100px;
+    left:100px;
 }
