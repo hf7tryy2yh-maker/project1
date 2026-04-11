@@ -20,28 +20,6 @@
             NEXT
         </BUTTON></a>
     </div>
-           <script>
-// Create hearts continuously
-setInterval(() => {
-  const heart = document.createElement("div");
-  heart.className = "heart";
-  heart.innerHTML = "❤️";
-
-  // Random position
-  heart.style.left = Math.random() * 100 + "vw";
-
-  // Random size
-  heart.style.fontSize = (25 + Math.random() * 25) + "px";
-
-  document.body.appendChild(heart);
-
-  // Remove after animation
-  setTimeout(() => {
-    heart.remove();
-  }, 5000);
-
-}, 300);
-</script>
     
 </body>
 </html>
