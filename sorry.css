@@ -37,3 +37,14 @@ button:hover{
     position:absolute;
     button:100px;
 }
+.heart {
+  position: absolute;
+  color: pink;
+  font-size: 20px;
+  animation: float 5s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-600px); opacity: 0; }
+}
