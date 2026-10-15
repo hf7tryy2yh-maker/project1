@@ -1,0 +1,57 @@
+
+        body {
+            background: linear-gradient(to bottom, #ffcccc, #ff99cc);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #cc3366;
+            font-size: 48px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .content {
+            background: white;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .message {
+            margin: 20px 0;
+            font-size: 20px;
+            color: #cc3366;
+        }
+        .video {
+            margin-top: 30px;
+        }
+  #button{
+    background-color:#ff9900;
+    color:white;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    transition: all 0.3 ease;
+}
+button:hover{
+    background-color:#e68a00;
+    transform:scale(1.1);
+}
+           .heart {
+  position: absolute;
+  color: pink;
+  font-size: 20px;
+  animation: float 5s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-600px); opacity: 0; }
+}
